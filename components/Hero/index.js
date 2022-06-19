@@ -39,7 +39,7 @@ const Hero = () => {
       <div className='bg-white h-screen'>
         <div className='container mx-auto pt-24 md:pt-16 px-6'>
           <p className='py-4'>
-            <i className='em em-wave'></i> <i class='em em-world_map'></i>
+            <i className='em em-wave'></i> <i className='em em-world_map'></i>
           </p>
         </div>
       </div>
