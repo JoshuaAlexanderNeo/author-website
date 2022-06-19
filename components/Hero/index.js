@@ -5,17 +5,6 @@ import Button from '../Button'
 const Hero = () => {
   return (
     <>
-      <div className='-z-50 w-full h-screen overflow-hidden absolute -mt-16'>
-        {/* <Image
-          alt='background'
-          src={
-            'https://images.unsplash.com/photo-1574076284060-73793f8cd9a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'
-          }
-          layout='fill'
-          objectFit='cover'
-          quality={100}
-        /> */}
-      </div>
       <div className='container mx-auto flex flex-col md:flex-row justify-center gap-64 py-20'>
         <div className='flex flex-col w-full lg:w-1/2 justify-center items-start pt-16 pb-24 px-12'>
           <h1 className='font-bold text-5xl mb-10'>Tilting At Torii</h1>

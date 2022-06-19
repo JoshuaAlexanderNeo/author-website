@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 export const ResponsiveNavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
@@ -12,12 +13,12 @@ export const ResponsiveNavBar = () => {
 
 const pages = ['Home', 'Books', 'About Me', 'Mailing List']
 const navLinks = pages.map((page) => (
-  <a
+  <Link
     key={page}
     className='no-underline text-gray-600 lg:text-neutral-900 font-semibold hover:text-gray-300 '
-    href={`#${page}`}>
+    href={`#${page.toLowerCase().trim().split(/\s+/).join('-')}`}>
     {page}
-  </a>
+  </Link>
 ))
 
 const Navbar = ({ menuOpen, setMenuOpen }) => (
