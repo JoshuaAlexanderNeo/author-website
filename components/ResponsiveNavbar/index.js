@@ -22,7 +22,7 @@ const navLinks = pages.map((page) => (
 ))
 
 const Navbar = ({ menuOpen, setMenuOpen }) => (
-  <div className='flex items-center justify-between p-4'>
+  <div className='flex items-center justify-between p-4 pb-16'>
     <div className='w-20'>
       <Image alt='background' src={require('../../public/maple.png')} quality={100} />
     </div>
