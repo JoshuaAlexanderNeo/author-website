@@ -15,30 +15,30 @@ const pages = ['Home', 'Books', 'About Me', 'Mailing List']
 const navLinks = pages.map((page) => (
   <Link
     key={page}
-    className='no-underline text-gray-600 lg:text-neutral-900 font-semibold hover:text-gray-300 '
+    className='no-underline text-gray-600 sm:text-neutral-900 font-semibold hover:text-gray-300 '
     href={`#${page.toLowerCase().trim().split(/\s+/).join('-')}`}>
     {page}
   </Link>
 ))
 
 const Navbar = ({ menuOpen, setMenuOpen }) => (
-  <div className='flex items-center justify-between p-4 pb-16'>
+  <div className='flex items-center justify-between p-4'>
     <div className='w-20'>
       <Image alt='background' src={require('../../public/maple.png')} quality={100} />
     </div>
-    <nav className='hidden lg:block space-x-6'>{navLinks}</nav>
+    <nav className='hidden sm:block space-x-6'>{navLinks}</nav>
     <button
       type='button'
       aria-label='Toggle mobile menu'
       onClick={() => setMenuOpen(!menuOpen)}
-      className='rounded lg:hidden focus:outline-none focus:ring focus:ring-gray-500 focus:ring-opacity-50'>
+      className='rounded sm:hidden focus:outline-none focus:ring focus:ring-gray-500 focus:ring-opacity-50'>
       <MenuAlt4Svg menuOpen={menuOpen} />
     </button>
   </div>
 )
 
 const MobileMenu = ({ children }) => (
-  <nav className='p-4 flex flex-col absolute w-screen space-y-6 lg:hidden bg-white top-0'>{children}</nav>
+  <nav className='p-4 flex flex-col absolute w-screen space-y-6 sm:hidden bg-white top-0'>{children}</nav>
 )
 
 const MenuAlt4Svg = ({ menuOpen }) => (

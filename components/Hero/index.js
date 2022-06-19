@@ -5,8 +5,8 @@ import Button from '../Button'
 const Hero = () => {
   return (
     <>
-      <div className='container mx-auto h-screen flex flex-col justify-end md:flex-row md:justify-between'>
-        <div className='flex flex-col w-full justify-center items-start pb-12 px-12'>
+      <div className='container mx-auto h-screen contents sm:flex flex-col justify-end sm:flex-row sm:justify-between'>
+        <div className='h-full flex flex-col w-full justify-center items-start pb-12 px-12'>
           <h1 className='font-bold text-5xl mb-10'>Tilting At Torii</h1>
           <p className='leading-normal mb-4'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo tortor hendrerit nisi condimentum, id
@@ -22,7 +22,7 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className='md:w-full md:text-center  md:mt-60 lg:mt-24 xl:mt-12 2xl:mt-6'>
+        <div className='sm:w-full sm:text-center  sm:mt-60 lg:mt-24 xl:mt-12 2xl:mt-6'>
           <Image
             priority
             placeholder='blur'
