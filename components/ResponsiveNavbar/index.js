@@ -38,21 +38,23 @@ const Navbar = ({ menuOpen, setMenuOpen }) => (
 )
 
 const MobileMenu = ({ children }) => (
-  <nav className='p-4 flex flex-col absolute w-screen space-y-6 lg:hidden bg-white'>{children}</nav>
+  <nav className='p-4 flex flex-col absolute w-screen space-y-6 lg:hidden bg-white top-0'>{children}</nav>
 )
 
 const MenuAlt4Svg = ({ menuOpen }) => (
   <>
-    <svg
-      viewBox='64 64 896 896'
-      focusable='false'
-      data-icon='menu'
-      width='1em'
-      height='1em'
-      className={`transition text-gray-600 duration-100 ease h-8 w-8 ${menuOpen ? 'transform rotate-90' : ''}`}
-      fill='currentColor'
-      aria-hidden='true'>
-      <path d='M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z'></path>
-    </svg>
+    <div className='z-50 absolute float-right right-4 top-4'>
+      <svg
+        viewBox='64 64 896 896'
+        focusable='false'
+        data-icon='menu'
+        width='1em'
+        height='1em'
+        className={`transition text-gray-600 duration-100 ease h-8 w-8 ${menuOpen ? 'transform rotate-90' : ''}`}
+        fill='currentColor'
+        aria-hidden='true'>
+        <path d='M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z'></path>
+      </svg>
+    </div>
   </>
 )
