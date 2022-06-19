@@ -24,6 +24,8 @@ const Hero = () => {
 
         <div className='md:w-full md:text-center  md:mt-60 lg:mt-24 xl:mt-12 2xl:mt-6'>
           <Image
+            priority
+            placeholder='blur'
             alt='cover'
             src={require('../../public/covers/two-covers.png')}
             layout='responsive'
