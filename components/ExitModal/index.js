@@ -5,12 +5,6 @@ import Image from 'next/image'
 const ExitModal = ({ showModal, setShowModal }) => {
   return (
     <>
-      <button
-        className='bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150'
-        type='button'
-        onClick={() => setShowModal(true)}>
-        Open regular modal
-      </button>
       {showModal ? (
         <>
           <div className='justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none'>
@@ -19,6 +13,7 @@ const ExitModal = ({ showModal, setShowModal }) => {
               <div className='border-0 rounded-lg shadow-lg relative flex flex-row w-full bg-white outline-none focus:outline-none'>
                 <div className='h-96 w-96 relative'>
                   <Image
+                    priority
                     layout='fill'
                     objectFit='cover'
                     src='https://images.unsplash.com/photo-1609554009556-d64c7633eaca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80'

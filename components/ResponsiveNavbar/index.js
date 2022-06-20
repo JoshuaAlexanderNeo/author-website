@@ -22,8 +22,8 @@ const navLinks = pages.map((page) => (
 ))
 
 const Navbar = ({ menuOpen, setMenuOpen }) => (
-  <div className='flex items-center justify-between p-4'>
-    <div className='w-20'>
+  <div className='flex items-center justify-between p-4 pb-20'>
+    <div className='h-14 -mt-8 -ml-8 w-52'>
       <Image alt='background' src={require('../../public/maple.png')} quality={100} />
     </div>
     <nav className='hidden sm:block space-x-6'>{navLinks}</nav>
