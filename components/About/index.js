@@ -2,14 +2,14 @@ import Link from 'next/link'
 
 const About = () => {
   return (
-    <section id='about-me' className='bg-white dark:bg-gray-800 mb-64'>
+    <section id='about-me' className='bg-gray-800 mb-64'>
       <div className='container px-6 py-8 mx-auto justify-between lg:flex'>
         <div className='lg:flex justify-between w-full items-center '>
           <div className='lg:w-1/2'>
-            <h2 className='text-3xl font-bold font-orienta text-gray-800 dark:text-gray-100'>Who I am</h2>
+            <h2 className='text-3xl font-bold font-orienta text-gray-100'>Who I am</h2>
 
-            <div className='mt-4 text-gray-800 dark:text-gray-400 lg:max-w-1/2 font-orienta'>
-              <p className='text-base font-light leading-relaxed mt-0 mb-0 italic text-gray-800'>
+            <div className='mt-4 text-gray-200 lg:max-w-1/2 font-orienta'>
+              <p className='text-base font-light leading-relaxed mt-0 mb-0 italic text-gray-200'>
                 “Finally, from so little sleeping and so much reading, his brain dried up and he went completely out of
                 his mind.”
               </p>
@@ -24,7 +24,7 @@ const About = () => {
                 Don’t tell him the fight was over before it began. He still thinks he has a chance.) He can be reached
                 at:{' '}
                 <Link href='mailto:opalexander5@gmail.com'>
-                  <span className='text-blue-900'>opalexander5@gmail.com</span>
+                  <span className='text-blue-400'>opalexander5@gmail.com</span>
                 </Link>
               </p>
             </div>
