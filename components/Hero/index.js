@@ -6,15 +6,13 @@ const Hero = () => {
   return (
     <>
       <div className='container mx-auto h-screen contents sm:flex flex-col justify-end sm:flex-row sm:justify-between'>
-        <div className='h-full flex flex-col w-full justify-center items-start pb-12 px-12 -mt-10'>
-          <h1 className='font-bold text-5xl mb-10'>Tilting At Torii</h1>
-          <p className='leading-normal'>
-            <strong>
-              <i>Her potential was legendary. Her greatest obstacle? Convincing others of this fact.</i>
-            </strong>
+        <div className='h-full flex flex-col w-full justify-center items-start pb-12 px-12 '>
+          <h1 className='font-bold text-6xl mb-10 -ml-2 font-kaushan'>Tilting At Torii</h1>
+          <p className='leading-normal italic text-lg font-bold'>
+            Her potential was legendary. Her greatest obstacle? Convincing others of this fact.
           </p>
           <br />
-          <p className='mb-8'>
+          <p className='mb-8 font-orienta'>
             A young girl wakes up in the ashes of her family home. Her mother and brother are gone. Her father remains
             but seems to be missing something important—his head. After a one-sided conversation with her decapitated
             dad, the girl confabulates an identity and destiny for herself. She decides her name is ‘Chima,’ and that
