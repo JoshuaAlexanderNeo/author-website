@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const About = () => {
   return (
-    <section id='about-me' className='bg-white dark:bg-gray-800'>
+    <section id='about-me' className='bg-white dark:bg-gray-800 mb-64'>
       <div className='container px-6 py-8 mx-auto justify-between lg:flex'>
         <div className='lg:flex justify-between w-full items-center '>
           <div className='lg:w-1/2'>
