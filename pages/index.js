@@ -1,10 +1,32 @@
 import Head from 'next/head'
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Hero from '../components/Hero'
 import MailingList from '../components/MailingList'
 import { ResponsiveNavBar } from '../components/ResponsiveNavbar'
+import ExitModal from '../components/ExitModal'
+import ExitIntent from 'exit-intent'
 
 export default function Home() {
+  const [showExitModal, setShowExitModal] = useState(false)
+  const [exitIntentShown, setExitIntentShown] = useState(0)
+
+  useEffect(() => {
+    const removeExitIntent = ExitIntent({
+      threshold: 30,
+      maxDisplays: 1,
+      eventThrottle: 100,
+      onExitIntent: () => {
+        if (exitIntentShown < 1) {
+          setShowExitModal(true)
+          setExitIntentShown((prev) => prev + 1)
+        }
+      }
+    })
+    return () => {
+      removeExitIntent()
+    }
+  })
   return (
     <>
       <Head>
@@ -17,6 +39,7 @@ export default function Home() {
         <Hero />
       </div>
       <MailingList />
+      <ExitModal showModal={showExitModal} setShowModal={setShowExitModal} />
     </>
   )
 }
