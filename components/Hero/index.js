@@ -8,12 +8,19 @@ const Hero = () => {
       <div className='container mx-auto h-screen contents sm:flex flex-col justify-end sm:flex-row sm:justify-between'>
         <div className='h-full flex flex-col w-full justify-center items-start pb-12 px-12 -mt-10'>
           <h1 className='font-bold text-5xl mb-10'>Tilting At Torii</h1>
-          <p className='leading-normal mb-4'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo tortor hendrerit nisi condimentum, id
-            consectetur leo varius. Integer molestie semper diam, et mollis sem interdum nec. Donec scelerisque placerat
-            est interdum hendrerit. Vestibulum eu nibh et turpis vehicula tincidunt in ut leo. Curabitur tellus risus,
-            ultrices sit amet venenatis nec, consequat ac mi. Sed luctus arcu eget augue molestie, a maximus urna
-            facilisis.
+          <p className='leading-normal'>
+            <strong>
+              <i>Her potential was legendary. Her greatest obstacle? Convincing others of this fact.</i>
+            </strong>
+          </p>
+          <br />
+          <p className='mb-8'>
+            A young girl wakes up in the ashes of her family home. Her mother and brother are gone. Her father remains
+            but seems to be missing something important—his head. After a one-sided conversation with her decapitated
+            dad, the girl confabulates an identity and destiny for herself. She decides her name is ‘Chima,’ and that
+            she is a master of the blade without parallel. With such delusions in mind, she goes off on a quixotic quest
+            in search of her father’s head and to prove to the world that she is, indeed, the greatest warrior who ever
+            lived.
           </p>
           <a
             className='focus:outline-none text-white bg-momiji hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900'
