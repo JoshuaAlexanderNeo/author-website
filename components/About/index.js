@@ -59,9 +59,9 @@ const About = () => {
 
           <div className='mt-8 lg:mt-0 lg:w-1/2'>
             <div className='flex items-center justify-center lg:justify-end'>
-              <div className='max-w-lg relative aspect-[3/4] h-96'>
+              <div className='max-w-lg relative w-96 h-96'>
                 <Image
-                  className='object-cover object-center w-full h-64 rounded-md shadow'
+                  className='object-cover object-center w-full h-64 rounded-full shadow'
                   src={require('../../public/leif.jpg')}
                   alt=''
                   layout='fill'
