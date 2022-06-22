@@ -18,7 +18,7 @@ export default function Home() {
 
   useEffect(() => {
     localforage.getItem('displayed').then((alreadyDisplayed) => {
-      if (!alreadyDisplayed) {
+      if (alreadyDisplayed) {
         localforage.setItem('displayed', 'true')
         ExitIntent({
           threshold: 30,
