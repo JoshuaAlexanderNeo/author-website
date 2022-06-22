@@ -6,16 +6,16 @@ const Books = () => {
   return (
     <div className='flex justify-center mb-12 mt-12'>
       <div className='w-full lg:w-10/12 items-center'>
-        <h1 className='text-4xl float-right font-bold mb-10'>My Books</h1>
+        <h1 className='text-4xl float-right font-bold mb-10 mr-8 lg:mr-0'>My Books</h1>
         <div className='w-full flex'>
           <Link href='/TiltingAtTorii'>
-            <div className='border-1 rounded-lg shadow-2xl relative flex  flex-row w-full cursor-pointer bg-white outline-none focus:outline-none'>
-              <div className='aspect-[5/8] h-96 relative rounded-large'>
+            <div className='border-1 rounded-lg shadow-2xl relative flex  flex-row w-full h-full cursor-pointer bg-white outline-none focus:outline-none'>
+              <div className='aspect-[5/8] h-56 md:h-96 relative rounded-large'>
                 <Image
                   priority
                   className='rounded-l-lg'
                   layout='fill'
-                  objectFit='cover'
+                  objectFit='responsive'
                   src={require('../../public/covers/TiltingatTorii-cov-ebook.jpg')}
                 />
               </div>
