@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Books = () => {
   return (
     <div className='flex justify-center mb-12 mt-12'>
-      <div className='w-10/12 items-center'>
+      <div className='w-full lg:w-10/12 items-center'>
         <h1 className='text-4xl float-right font-bold mb-4'>My Books</h1>
         <div className='w-full flex'>
           <Link href='/TiltingAtTorii'>
