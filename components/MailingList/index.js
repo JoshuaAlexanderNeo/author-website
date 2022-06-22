@@ -20,7 +20,7 @@ const MailingList = () => {
               aria-label='Enter your email'
             />
 
-            <button className='bg-red-600 hover:bg-red-800 block w-full text-white rounded-md font-semibold px-4 py-3 mb-12   first-letter:w-full'>
+            <button className='bg-momiji hover:bg-red-800 block w-full text-white rounded-md font-semibold px-4 py-3 mb-12   first-letter:w-full'>
               Subscribe
             </button>
           </div>
