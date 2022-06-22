@@ -21,7 +21,7 @@ const Hero = () => {
             lived.
           </p>
           <a
-            className='focus:outline-none text-white bg-momiji hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900'
+            className='focus:outline-none text-white bg-momiji hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 '
             href='https://www.amazon.com/dp/B0B2NBKGMY'>
             BUY NOW on Amazon
           </a>
