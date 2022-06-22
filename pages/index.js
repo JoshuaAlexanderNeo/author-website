@@ -10,14 +10,15 @@ import ExitIntent from 'exit-intent'
 import About from '../components/About'
 import localforage from 'localforage'
 
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+
 export default function Home() {
   const [showExitModal, setShowExitModal] = useState(false)
 
   useEffect(() => {
     localforage.getItem('displayed').then((alreadyDisplayed) => {
-      console.log(alreadyDisplayed)
       if (!alreadyDisplayed) {
-        console.log('wtf')
         localforage.setItem('displayed', 'true')
         ExitIntent({
           threshold: 30,
@@ -52,6 +53,17 @@ export default function Home() {
       {/* <Books /> */}
       <MailingList />
       <ExitModal showModal={showExitModal} setShowModal={setShowExitModal} />
+      <ToastContainer
+        position='top-center'
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </>
   )
 }

@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "exit-intent": "^1.1.0",
     "kofi-button": "^1.1.1",
     "localforage": "^1.10.0",
     "next": "12.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-spinners": "^0.12.0",
+    "react-toastify": "^9.0.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
