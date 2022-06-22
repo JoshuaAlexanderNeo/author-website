@@ -50,7 +50,6 @@ export default function Home() {
         <Hero />
       </div>
       <About />
-      {/* <Books /> */}
       <MailingList />
       <ExitModal showModal={showExitModal} setShowModal={setShowExitModal} />
       <ToastContainer
