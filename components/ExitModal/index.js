@@ -11,7 +11,7 @@ const ExitModal = ({ showModal, setShowModal }) => {
             <div className='relative w-1/2 my-6 mx-auto max-w-6xl'>
               {/*content*/}
               <div className='border-0 rounded-lg shadow-lg relative flex flex-row w-full bg-white outline-none focus:outline-none'>
-                <div className='h-96 w-96 relative'>
+                <div className='h-[140] w-96 relative'>
                   <Image
                     priority
                     layout='fill'
