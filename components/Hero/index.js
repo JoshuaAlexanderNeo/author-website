@@ -23,13 +23,8 @@ const Hero = () => {
           </p>
           <div>
             <Link href='https://www.amazon.com/dp/B0B2NBKGMY'>
-              <a className='focus:outline-none text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2'>
-                BUY NOW on Amazon
-              </a>
-            </Link>
-            <Link href='/TiltingAtTorii'>
               <a className='focus:outline-none text-white bg-momiji hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2'>
-                More Info
+                BUY NOW on Amazon
               </a>
             </Link>
           </div>

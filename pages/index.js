@@ -49,7 +49,7 @@ export default function Home() {
         <Hero />
       </div>
       <About />
-      <Books />
+      {/* <Books /> */}
       <MailingList />
       <ExitModal showModal={showExitModal} setShowModal={setShowExitModal} />
     </>
