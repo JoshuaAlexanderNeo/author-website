@@ -29,7 +29,7 @@ const About = () => {
                   <span className='text-blue-400'>opalexander5@gmail.com</span>
                 </Link>
               </p>
-              <div class='flex items-center mt-6 -mx-2'>
+              <div className='flex items-center mt-6 -mx-2'>
                 <Link href='https://twitter.com/LMaplesson' ariaLabel='Twitter'>
                   <svg
                     className='w-7 h-7 mx-2 text-gray-500 fill-current cursor-pointer hover:text-gray-600 '
