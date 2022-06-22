@@ -11,7 +11,7 @@ export const ResponsiveNavBar = () => {
   )
 }
 
-const pages = ['Home', 'About Me', 'Books', 'Mailing List']
+const pages = ['Home', 'About Me', 'Mailing List']
 const navLinks = pages.map((page) => (
   <Link
     key={page}

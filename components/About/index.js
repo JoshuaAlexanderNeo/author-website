@@ -20,10 +20,10 @@ const About = () => {
               <p>
                 Leif Maplesson was born in a city named after a bridge. When he was a teenager, he wrote a short story
                 about jumping from said bridge. This garnered him no literary fame but did earn him a one-on-one
-                exclusive interview with the school counsellor. He's been in love with writing ever since. He has been
+                exclusive interview with the school counsellor. He’s been in love with writing ever since. He has been
                 boxing with the Japanese language for the better part of a decade. Sure, his tango with <i>nihongo</i>{' '}
-                has left him pummelled flat like <i>mochi</i>, but he hasn't heard no bell. (His ears swelled shut a
-                long time ago. Don't tell him the fight was over before it began. He still thinks he has a chance.) He
+                has left him pummelled flat like <i>mochi</i>, but he hasn’t heard no bell. (His ears swelled shut a
+                long time ago. Don’t tell him the fight was over before it began. He still thinks he has a chance.) He
                 can be reached at:{' '}
                 <Link href='mailto:opalexander5@gmail.com'>
                   <span className='text-blue-400'>opalexander5@gmail.com</span>
