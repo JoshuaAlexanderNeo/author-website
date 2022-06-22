@@ -3,11 +3,11 @@ import KofiButton from 'kofi-button'
 
 const About = () => {
   return (
-    <section id='about-me' className='bg-gray-800 mb-64'>
+    <section id='about-me' className='bg-gray-800'>
       <div className='container px-6 py-8 mx-auto justify-between lg:flex'>
         <div className='lg:flex justify-between w-full items-center '>
           <div className='lg:w-1/2'>
-            <h2 className='text-3xl font-bold font-orienta text-gray-100'>Who I am</h2>
+            <h2 className='text-4xl font-bold font-orienta text-gray-100'>Who I am</h2>
 
             <div className='mt-4 text-gray-200 lg:max-w-1/2 font-orienta'>
               <p className='text-base font-light leading-relaxed mt-0 mb-0 italic text-gray-200'>
@@ -31,7 +31,7 @@ const About = () => {
             </div>
 
             <div className='flex items-center mt-6 -mx-2'>
-              <KofiButton color='#0a9396' title='Donate' kofiID='Y8Y43H529' />
+              <KofiButton color='#CC0033' title='Donate' kofiID='Y8Y43H529' />
             </div>
           </div>
 

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Hero from '../components/Hero'
+import Books from '../components/Books'
 import MailingList from '../components/MailingList'
 import { ResponsiveNavBar } from '../components/ResponsiveNavbar'
 import ExitModal from '../components/ExitModal'
@@ -48,6 +49,7 @@ export default function Home() {
         <Hero />
       </div>
       <About />
+      <Books />
       <MailingList />
       <ExitModal showModal={showExitModal} setShowModal={setShowExitModal} />
     </>
