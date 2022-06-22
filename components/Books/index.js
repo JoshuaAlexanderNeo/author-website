@@ -6,7 +6,7 @@ const Books = () => {
   return (
     <div className='flex justify-center mb-12 mt-12'>
       <div className='w-full lg:w-10/12 items-center'>
-        <h1 className='text-4xl float-right font-bold mb-4'>My Books</h1>
+        <h1 className='text-4xl float-right font-bold mb-10'>My Books</h1>
         <div className='w-full flex'>
           <Link href='/TiltingAtTorii'>
             <div className='border-1 rounded-lg shadow-2xl relative flex  flex-row w-full cursor-pointer bg-white outline-none focus:outline-none'>
