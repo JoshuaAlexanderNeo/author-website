@@ -13,7 +13,7 @@ const MailingList = () => {
           </h2>
 
           <p className='mt-2 text-md text-gray-600 md:text-gray-400 mb-3'>
-            Sign up for the LEGENDARY newsletter below and claim your copy today!
+            Join the mailing list and bear witness to deeds of legend.
           </p>
           <div>
             <input

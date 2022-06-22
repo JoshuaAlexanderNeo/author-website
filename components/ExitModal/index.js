@@ -23,8 +23,10 @@ const ExitModal = ({ showModal, setShowModal }) => {
                 <div className='flex flex-col justify-between w-1/2 px-4 mt-10 content-center ml-10'>
                   <div>
                     <div className='mb-10'>
-                      <h1 className='mb-2 text-2xl font-bold leading-tight'>Want a free story?</h1>
-                      <p className='text-sm text-gray-700'>Sign up to my mailing list!</p>
+                      <h1 className='mb-2 text-2xl font-bold leading-tight'>Wait! Want a free story?</h1>
+                      <p className='text-sm text-gray-700'>
+                        Join the mailing list and bear witness to deeds of legend.
+                      </p>
                     </div>
                     <span
                       className='absolute top-0 right-0 block w-10 h-5 -mt-2 -mr-4 text-xs text-center text-gray-600 transform rotate-45 bg-white rounded shadow-md cursor-pointer hover:bg-gray-100'
