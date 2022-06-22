@@ -24,7 +24,7 @@ const MailingList = () => {
               aria-label='Enter your email'
             />
 
-            <button class='bg-red-600 hover:bg-red-800 text-white rounded-md font-semibold px-4 py-3 w-full'>
+            <button className='bg-red-600 hover:bg-red-800 text-white rounded-md font-semibold px-4 py-3 w-full'>
               Subscribe
             </button>
           </div>

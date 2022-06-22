@@ -9,10 +9,11 @@ const Books = () => {
         <h1 className='text-4xl float-right font-bold mb-4'>My Books</h1>
         <div className='w-full flex'>
           <Link href='/TiltingAtTorii'>
-            <div className='border-1 rounded-lg shadow-2xl relative flex flex-row w-full cursor-pointer bg-white outline-none focus:outline-none'>
-              <div className='aspect-[5/8] h-96 relative'>
+            <div className='border-1 rounded-lg shadow-2xl relative flex  flex-row w-full cursor-pointer bg-white outline-none focus:outline-none'>
+              <div className='aspect-[5/8] h-96 relative rounded-large'>
                 <Image
                   priority
+                  className='rounded-l-lg'
                   layout='fill'
                   objectFit='cover'
                   src={require('../../public/covers/TiltingatTorii-cov-ebook.jpg')}
@@ -24,12 +25,12 @@ const Books = () => {
                   <div className='mb-10'>
                     <h1 className='mb-2 text-3xl font-semibold leading-tight'>Tilting at Torii</h1>
                     <p className='text-sm text-gray-700'>Lorem Ipsum</p>
-                    <Link href='/TiltingAtTorii'>
-                      <a className='focus:outline-none text-white bg-momiji hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2'>
-                        More Info
-                      </a>
-                    </Link>
                   </div>
+                  <Link href='/TiltingAtTorii'>
+                    <a className='focus:outline-none text-white bg-momiji hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2'>
+                      More Info
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
